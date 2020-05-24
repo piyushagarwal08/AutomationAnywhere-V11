@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="Linked Search Table.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/04/2020 14:58:40</Property>
+      <Property Name="RunDuration">00:03:59</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

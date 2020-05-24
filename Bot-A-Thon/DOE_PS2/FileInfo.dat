@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="Admit Card.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/11/2020 22:23:28</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AdmitCard.atmx">
+    <Properties>
+      <Property Name="LastRunTime">05/05/2020 20:20:23</Property>
+      <Property Name="RunDuration">00:00:29</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+</Entities>

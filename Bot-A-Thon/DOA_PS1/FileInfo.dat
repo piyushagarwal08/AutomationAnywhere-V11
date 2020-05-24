@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="Bot1_FinalOutput.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/04/2020 11:46:28</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Bot1.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/04/2020 11:46:28</Property>
+      <Property Name="RunDuration">00:00:23</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

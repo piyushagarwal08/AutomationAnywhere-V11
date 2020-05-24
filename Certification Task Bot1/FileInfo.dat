@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="CertificateTest.atmx">
+    <Properties>
+      <Property Name="LastRunTime">03/15/2020 07:56:42</Property>
+      <Property Name="RunDuration">00:00:52</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="analysis-report-detailed.xsl"?><analysis status="analysed" version="1.0">
+    <stat>
+        <dependencies count="1" ucount="1">
+            <dependency count="1">C:\Users\piyus\Documents\Automation Anywhere Files\Automation Anywhere\My Tasks\AWS_Launch_Instance\Launch_AWS_Instance.atmx</dependency>
+        </dependencies>
+        <errors count="2" ucount="1">
+            <error count="2">WindowTitle field in Prompt command is not yet supported</error>
+        </errors>
+    </stat>
+    <commands>
+                
+        <command api="ForValue" grp="Prompt" name="ForValue" source-line="1" target-action="ForValue" target-line="1" target-package="Prompt">
+                        
+            <msg category="command" review="true" type="error">WindowTitle field in Prompt command is not yet supported</msg>
+                        
+            <msg category="command" review="false" type="info">Migrated using variable parameter.</msg>
+                        
+            <msg category="command" review="false" type="info">This variable is not needed in A2019</msg>
+                    
+        </command>
+                
+        <command api="forValue_keystroke" grp="Keystrokes" name="Keystrokes" target-action="Keystrokes" target-line="2" target-package="Keystrokes">
+                        
+            <msg category="default" review="false" type="info">Command parameter [Delay] of type [Number] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [TotalKeys] of type [Integer] is not required. </msg>
+                    
+        </command>
+                
+        <command api="ForValue" grp="Prompt" name="ForValue" source-line="2" target-action="ForValue" target-line="3" target-package="Prompt">
+                        
+            <msg category="command" review="true" type="error">WindowTitle field in Prompt command is not yet supported</msg>
+                        
+            <msg category="command" review="false" type="info">Migrated using variable parameter.</msg>
+                        
+            <msg category="command" review="false" type="info">This variable is not needed in A2019</msg>
+                    
+        </command>
+                
+        <command api="forValue_keystroke" grp="Keystrokes" name="Keystrokes" target-action="Keystrokes" target-line="4" target-package="Keystrokes">
+                        
+            <msg category="default" review="false" type="info">Command parameter [Delay] of type [Number] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [TotalKeys] of type [Integer] is not required. </msg>
+                    
+        </command>
+                
+        <command api="" grp="WebRecorder" name="Configurations" target-action="configuration" target-line="5" target-package="LegacyAutomation"/>
+                
+        <command api="OpenBrowser" grp="WebRecorder" name="OpenBrowser" source-line="3" target-action="open" target-line="6" target-package="LegacyAutomation">
+                        
+            <msg category="command" review="false" type="info">this is field does not need to be mapped </msg>
+                        
+            <msg category="command" review="false" type="info">this is field does not need to be mapped </msg>
+                    
+        </command>
+                
+        <command api="WindowInWindow" grp="If.IFImageReco" name="WindowInWindow" source-line="4" target-action="if" target-line="7" target-package="If">
+                        
+            <msg category="default" review="false" type="info">Command parameter [WindowTitle1] of type [String] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [WindowTitle2] of type [String] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [ImgInd] of type [Image] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [X1] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Y1] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [X2] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Y2] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Img1Thumb] of type [Image] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Tolerance] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [ComparisonMode] of type [String] is not required. </msg>
+                        
+            <msg category="command" review="false" type="info">In A2019 IR command, we are not supporting offsetX click</msg>
+                        
+            <msg category="command" review="false" type="info">In A2019 IR command, we are not supporting offsetY click</msg>
+                    
+        </command>
+                
+        <command api="MouseMove" grp="MouseMove" name="MouseMove" source-line="5" target-action="mouseMove" target-line="8" target-package="Mouse">
+                        
+            <msg category="command" review="false" type="info">X1 is being transformed in Coordinate object.Not required in direct Transformation.</msg>
+                        
+            <msg category="command" review="false" type="info">Y1 is being transformed in Coordinate object.Not required in direct Transformation.</msg>
+                        
+            <msg category="command" review="false" type="info">X2 is being transformed in Coordinate object.Not required in direct Transformation.</msg>
+                        
+            <msg category="command" review="false" type="info">Y2 is being transformed in Coordinate object.Not required in direct Transformation.</msg>
+                        
+            <msg category="command" review="false" type="info">MouseMoves value not required in A2019.</msg>
+                    
+        </command>
+                
+        <command api="MouseClk" grp="MouseClk" name="MouseClk" source-line="6" target-action="mouseClick" target-line="9" target-package="Mouse">
+                        
+            <msg category="command" review="false" type="info">Wnd is not required in A2019. A variable is already mapped using WndInd.</msg>
+                        
+            <msg category="command" review="false" type="info">X is being mapped to a custom field for Co-ordinate variable.</msg>
+                        
+            <msg category="command" review="false" type="info">Y is being mapped to a custom field for Co-ordinate variable.</msg>
+                        
+            <msg category="command" review="false" type="info">Title is not required in A2019.</msg>
+                        
+            <msg category="command" review="false" type="info">Migrated while window selection process.</msg>
+                        
+            <msg category="command" review="false" type="info">WndInd is being mapped to a custom field for Variable name.</msg>
+                        
+            <msg category="command" review="false" type="info">ImgInd is not required in A2019.</msg>
+                        
+            <msg category="command" review="false" type="info">Delay in A2019 Mouse Click is not supported.</msg>
+                        
+            <msg category="command" review="false" type="info">X1 is not required in A2019.</msg>
+                        
+            <msg category="command" review="false" type="info">Y1 is not required in A2019.</msg>
+                    
+        </command>
+                
+        <command api="MouseClk" grp="MouseClk" name="MouseClk" source-line="7" target-action="mouseClick" target-line="10" target-package="Mouse">
+                        
+            <msg category="command" review="false" type="info">Wnd is not required in A2019. A variable is already mapped using WndInd.</msg>
+                        
+            <msg category="command" review="false" type="info">X is being mapped to a custom field for Co-ordinate variable.</msg>
+                        
+            <msg category="command" review="false" type="info">Y is being mapped to a custom field for Co-ordinate variable.</msg>
+                        
+            <msg category="command" review="false" type="info">Title is not required in A2019.</msg>
+                        
+            <msg category="command" review="false" type="info">Migrated while window selection process.</msg>
+                        
+            <msg category="command" review="false" type="info">WndInd is being mapped to a custom field for Variable name.</msg>
+                        
+            <msg category="command" review="false" type="info">ImgInd is not required in A2019.</msg>
+                        
+            <msg category="command" review="false" type="info">Delay in A2019 Mouse Click is not supported.</msg>
+                        
+            <msg category="command" review="false" type="info">X1 is not required in A2019.</msg>
+                        
+            <msg category="command" review="false" type="info">Y1 is not required in A2019.</msg>
+                    
+        </command>
+                
+        <command api="Comment" grp="Comment" name="Comment" source-line="8" target-action="Comment" target-line="11" target-package="Comment"/>
+                
+        <command api="WindowInWindow" grp="If.IFImageReco" name="WindowInWindow" source-line="9" target-action="if" target-line="12" target-package="If">
+                        
+            <msg category="default" review="false" type="info">Command parameter [WindowTitle1] of type [String] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [WindowTitle2] of type [String] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [ImgInd] of type [Image] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [X1] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Y1] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [X2] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Y2] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Img1Thumb] of type [Image] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Tolerance] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [ComparisonMode] of type [String] is not required. </msg>
+                        
+            <msg category="command" review="false" type="info">In A2019 IR command, we are not supporting offsetX click</msg>
+                        
+            <msg category="command" review="false" type="info">In A2019 IR command, we are not supporting offsetY click</msg>
+                    
+        </command>
+                
+        <command api="SetText" grp="WebRecorder" name="ManageWebCtrl" source-line="10" target-action="manageWebControls" target-line="13" target-package="LegacyAutomation">
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                    
+        </command>
+                
+        <command api="PerformOnclick" grp="WebRecorder" name="ManageWebCtrl" source-line="11" target-action="manageWebControls" target-line="14" target-package="LegacyAutomation">
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                    
+        </command>
+                
+        <command api="Comment" grp="Comment" name="Comment" source-line="12" target-action="Comment" target-line="15" target-package="Comment"/>
+                
+        <command api="WindowInWindow" grp="If.IFImageReco" name="WindowInWindow" source-line="13" target-action="if" target-line="16" target-package="If">
+                        
+            <msg category="default" review="false" type="info">Command parameter [WindowTitle1] of type [String] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [WindowTitle2] of type [String] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [ImgInd] of type [Image] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [X1] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Y1] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [X2] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Y2] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Img1Thumb] of type [Image] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Tolerance] of type [Integer] is not required. </msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [ComparisonMode] of type [String] is not required. </msg>
+                        
+            <msg category="command" review="false" type="info">In A2019 IR command, we are not supporting offsetX click</msg>
+                        
+            <msg category="command" review="false" type="info">In A2019 IR command, we are not supporting offsetY click</msg>
+                    
+        </command>
+                
+        <command api="SetText" grp="WebRecorder" name="ManageWebCtrl" source-line="14" target-action="manageWebControls" target-line="17" target-package="LegacyAutomation">
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                    
+        </command>
+                
+        <command api="Comment" grp="Comment" name="Comment" source-line="15" target-action="Comment" target-line="18" target-package="Comment"/>
+                
+        <command api="PerformOnclick" grp="WebRecorder" name="ManageWebCtrl" source-line="16" target-action="manageWebControls" target-line="19" target-package="LegacyAutomation">
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                        
+            <msg category="command" review="false" type="info">This field is not required in A2019</msg>
+                    
+        </command>
+                
+        <command api="Run" grp="Task" name="RunTask" source-line="17" target-action="runTask" target-line="20" target-package="TaskBot">
+                        
+            <msg xmlns:lookup="http://automationanywhere.com/lookup" type="dependency">C:\Users\piyus\Documents\Automation Anywhere Files\Automation Anywhere\My Tasks\AWS_Launch_Instance\Launch_AWS_Instance.atmx</msg>
+                        
+            <msg category="default" review="false" type="info">Command parameter [Speed] of type [String] is not required. </msg>
+                        
+            <msg category="command" review="false" type="info">Var is not being used, so not required in mapping.</msg>
+                        
+            <msg category="command" review="false" type="info">Variable is being transformed to dictionary input, so not required in direct transformation.</msg>
+                        
+            <msg category="command" review="false" type="info">Variable is being transformed to dictionary input, so not required in direct transformation.</msg>
+                    
+        </command>
+                
+        <command api="VarOpePreProcessor" grp="VariableOperation" name="VariableOperation" target-action="assign" target-line="21" target-package="String">
+                        
+            <msg category="default" review="false" type="info">Command parameter [Option] of type [String] is not required. </msg>
+                    
+        </command>
+                
+        <command api="VarOpePreProcessor" grp="VariableOperation" name="VariableOperation" target-action="assign" target-line="22" target-package="String">
+                        
+            <msg category="default" review="false" type="info">Command parameter [Option] of type [String] is not required. </msg>
+                    
+        </command>
+                
+        <command api="" grp="EndIf" name="" source-line="18" target-action="" target-line="23" target-package=""/>
+                
+        <command api="" grp="EndIf" name="" source-line="19" target-action="" target-line="24" target-package=""/>
+                
+        <command api="Comment" grp="Comment" name="Comment" source-line="20" target-action="Comment" target-line="25" target-package="Comment"/>
+                
+        <command api="" grp="Else" name="" source-line="21" target-action="else" target-line="26" target-package="If"/>
+                
+        <command api="ShowMsgBox" grp="MessageBox" name="ShowMsgBox" source-line="22" target-action="messageBox" target-line="27" target-package="MessageBox">
+                        
+            <msg category="default" review="false" type="info">Command parameter [ImgInd] of type [Image] is not required. </msg>
+                    
+        </command>
+                
+        <command api="" grp="EndIf" name="" source-line="23" target-action="" target-line="28" target-package=""/>
+            
+    </commands>
+    <variables>
+                
+        <variable name="$RunTask-OutPut-Dictionary$" type="Dictionary" value-type="Any"/>
+            
+    </variables>
+</analysis>

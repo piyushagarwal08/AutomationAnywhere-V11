@@ -1,0 +1,1 @@
+vSubjects = BCA017A Introduction to DBMS,BCA020A Data Structure Using C,BCA021A Programming in C++ ,BCA022A Database System Lab,BCA025A Programming in C++ Lab,BCA026 Seminar III,BCA036A Management Information System

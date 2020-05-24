@@ -1,0 +1,9 @@
+Subject: You are awesome!
+Message:
+Dear <firstname>
+Thank you for your co-operation and contribution towards the growth of organisation. We appreciate your efforts and wish you continue the same.
+
+
+Regards
+
+<companyname>

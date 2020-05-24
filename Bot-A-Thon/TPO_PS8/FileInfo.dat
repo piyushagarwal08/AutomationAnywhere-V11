@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="test.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/05/2020 20:37:13</Property>
+      <Property Name="RunDuration">00:00:45</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="DOCtoPDF.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/05/2020 21:23:15</Property>
+      <Property Name="RunDuration">00:00:10</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="TPO-PS8.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/05/2020 21:23:20</Property>
+      <Property Name="RunDuration">00:01:10</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="AWS_SignIN.atmx">
+    <Properties>
+      <Property Name="LastRunTime">05/01/2020 13:14:35</Property>
+      <Property Name="RunDuration">00:01:51</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Choose Instance.atmx">
+    <Properties>
+      <Property Name="LastRunTime">05/01/2020 13:14:35</Property>
+      <Property Name="RunDuration">00:00:47</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Launch_AWS_Instance.atmx">
+    <Properties>
+      <Property Name="LastRunTime">05/01/2020 13:14:35</Property>
+      <Property Name="RunDuration">00:01:08</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>
